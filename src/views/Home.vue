@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <h1 v-bind:id="dynamicId">這是我的開始</h1>
+    <hr />
     <button @[eventName]="showAlert" :disabled="isButtonDisable">
       我是按鈕
     </button>
